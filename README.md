@@ -29,7 +29,7 @@ Identify active hosts on a local network and create a basic asset inventory.
 ## Results
 The scan identified active devices on the local network. 
 
-![Nmap Scan Results](screenshots/nmap_sn.png)
+![Nmap Scan Results](nmap_sn.png)
 
 ## Security Relevance
 Security analysts use host discovery to:
