@@ -8,26 +8,23 @@ Network discovery is a fundamental task for security analysts because it helps m
 Identify active hosts on a local network and create a basic asset inventory.
 
 ## Command Used
- nmap -sN 192.168.1.*
+ nmap -sn 192.168.1.*
 
 ## What the Command Does
 - `nmap` = Runs the Nmap tool
 - `-sn` = Performs host discovery only (no port scan)
-- `192.168.1.0/24` = Scans all IP addresses in the subnet
+- `192.168.1.*` = Scans all IP addresses in the subnet
 
 ## Skills Demonstrated
-
 - Network Discovery
 - Asset Identification
 - Basic Reconnaissance
 - Security Documentation
 
 ## Methodology
-
 1. Determine the local subnet using `ipconfig`.
-2. Perform a ping sweep using Nmap.
-3. Identify active hosts.
-4. Document findings and observations.
+2. Identify active hosts.
+3. Document findings and observations.
 
 ## Results
 The scan identified active devices on the local network. Details are documented in `findings.md`.
