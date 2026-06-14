@@ -1,4 +1,5 @@
 # Nmap Network Discovery
+I used Nmap to perform a host discovery scan on my local network using -sn to identify active devices. I mapped all live IPs and created a basic asset inventory. This helped me understand how security analysts maintain visibility of network devices and identify unknown hosts
 
 ## Project Overview
 This project demonstrates how Nmap can be used to discover active devices on a local network. 
